@@ -1,0 +1,79 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  background-color: white; }
+
+.login-button {
+  font-size: 1.5em;
+  text-decoration: none;
+  margin-top: 25px;
+  display: inline-block;
+  margin-left: 30px;
+  color: #2ec866;
+  border: 1.5px solid;
+  padding: 6px;
+  border-radius: 5px; }
+
+.login-button:hover {
+  color: white;
+  background: #2ec866; }
+
+#sign-up-button {
+  font-size: 1.5em;
+  text-decoration: none;
+  margin-right: 30px;
+  margin-top: 25px;
+  float: right;
+  border: 1.5px solid;
+  color: #2ec866;
+  padding: 6px;
+  border-radius: 5px; }
+
+#sign-up-button:hover {
+  color: white;
+  background: #2ec866; }
+
+.banner {
+  padding-top: 25px;
+  opacity: 0.6; }
